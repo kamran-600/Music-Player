@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F1EEEE"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:ellipsize="marquee"
+        android:hint="Jo lamhe the sukoon ke madine me gujar Aaye"
+        android:layout_marginLeft="20dp" />
+
+    <ImageButton
+        android:id="@+id/popUp_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/more_vert_24"
+        android:layout_toRightOf="@+id/title"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"/>
+
+
+
+
+
+</RelativeLayout>
